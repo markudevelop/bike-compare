@@ -1,0 +1,27 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import BikeCompareTable from "../../components/BikeCompareTable";
+import bikesData from "../../data/bikes.json";
+
+const params = Astro.params;
+const bikeIds = params.bikeIds?.split("/").map((id) => +id) || [];
+const bikesToCompare = bikesData.filter((bike) => bikeIds.includes(bike.id));
+
+if (!bikesToCompare.length) {
+  return Astro.redirect("/");
+}
+
+const title =
+  bikesToCompare.length <= 3
+    ? `${bikesToCompare.map((b) => b.model).join(" vs ")}`
+    : "Comparing Bikes";
+---
+
+<Layout title={title}>
+  <main>
+    <h1 class="text-4xl font-bold text-center mb-6 text-white mt-10">
+      {title}
+    </h1>
+    <BikeCompareTable bikes={bikesToCompare} />
+  </main>
+</Layout>

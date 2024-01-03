@@ -1,0 +1,47 @@
+[
+  {
+    "id": 132,
+    "brand": "Canyon",
+    "model": "Speedmax CF 8.0",
+    "price": 3500,
+    "weight": "7.8 kg",
+    "userRating": 4.5,
+    "imageUrl": "https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwf6481ed5/images/full/full_2022_/2022/full_2022_speedmax-cf-8-disc-di2_3061_P04_P5.png"
+  },
+  {
+    "id": 245,
+    "brand": "Trek",
+    "model": "Emonda SLR 9",
+    "price": 11000,
+    "weight": "6.5 kg",
+    "userRating": 4.8,
+    "imageUrl": "https://media.trekbikes.com/image/upload/f_auto,fl_progressive:semi,q_auto,w_800,h_600,c_pad/EmondaSLR9_22_35715_D_Primary"
+  },
+  {
+    "id": 367,
+    "brand": "Specialized",
+    "model": "S-Works Tarmac",
+    "price": 12000,
+    "weight": "6.3 kg",
+    "userRating": 4.9,
+    "imageUrl": "https://assets.specialized.com/i/specialized/94920-00_TARMAC-SL7-SW-DI2-FLORED-TARBLK-WHT_HERO"
+  },
+  {
+    "id": 478,
+    "brand": "Giant",
+    "model": "Defy Advanced Pro",
+    "price": 5000,
+    "weight": "8.2 kg",
+    "userRating": 4.7,
+    "imageUrl": "https://images2.giant-bicycles.com/b_white,c_pad,h_600,q_80,w_800/ahkgcbcxk7woygeoybm3/MY24DefyAdvancedPro1_ColorAUnicornWhite.jpg"
+  },
+  {
+    "id": 590,
+    "brand": "Scott",
+    "model": "Addict RC Pro",
+    "price": 6000,
+    "weight": "7.5 kg",
+    "userRating": 4.6,
+    "imageUrl": "https://www.cycledivision.co.uk/media/catalog/product/optimized/d/b/dbebb272a4174a9edc67a9dc15451026/scott-addict-rc-2019.png"
+  }
+]
