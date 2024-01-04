@@ -5,10 +5,19 @@ const INITIAL_FILTERS = {
   price: "",
 };
 
-const BikeFilters = ({ onFilter }) => {
-  const [filters, setFilters] = useState(INITIAL_FILTERS);
+type Filters = {
+  brand: string;
+  price: string;
+};
 
-  const handleFilterChange = (e) => {
+type Props = {
+  onFilter: (filters: Filters) => void;
+};
+
+const BikeFilters: React.FC<Props> = ({ onFilter }) => {
+  const [filters, setFilters] = useState<Filters>(INITIAL_FILTERS);
+
+  const handleFilterChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFilters((prevFilters) => ({
       ...prevFilters,

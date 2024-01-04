@@ -22,7 +22,7 @@ const BikeSelector: React.FC<Props> = ({ bikes }) => {
     }
   };
 
-  const handleFilters = (values) => {
+  const handleFilters = (values: any) => {
     setFilters(values);
   };
 

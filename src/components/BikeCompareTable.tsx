@@ -1,4 +1,4 @@
-import { useMemo } from "React";
+import { useMemo } from "react";
 import type { Bike } from "../types/bikes";
 
 type Props = {
@@ -8,18 +8,24 @@ type Props = {
 const BikeCompareTable: React.FC<Props> = ({ bikes }) => {
   const fields = useMemo(
     () => [
-      { label: "Name", value: (bike) => `${bike.model}` },
-      { label: "Brand", value: (bike) => `${bike.brand}` },
-      { label: "Price", value: (bike) => `$${bike.price}` },
-      { label: "Weight", value: (bike) => bike.weight },
-      { label: "User Rating", value: (bike) => `${bike.userRating} / 5` },
-      { label: "Frame Material", value: (bike) => bike.frameMaterial },
-      { label: "Wheel Size", value: (bike) => bike.wheelSize },
-      { label: "Brake Type", value: (bike) => bike.brakeType },
-      { label: "Gear System", value: (bike) => bike.gearSystem },
-      { label: "Color Options", value: (bike) => bike.colorOptions.join(", ") },
-      { label: "Suitable Terrain", value: (bike) => bike.suitableTerrain },
-      { label: "Warranty", value: (bike) => bike.warranty },
+      { label: "Name", value: (bike: Bike) => `${bike.model}` },
+      { label: "Brand", value: (bike: Bike) => `${bike.brand}` },
+      { label: "Price", value: (bike: Bike) => `$${bike.price}` },
+      { label: "Weight", value: (bike: Bike) => bike.weight },
+      { label: "User Rating", value: (bike: Bike) => `${bike.userRating} / 5` },
+      { label: "Frame Material", value: (bike: Bike) => bike.frameMaterial },
+      { label: "Wheel Size", value: (bike: Bike) => bike.wheelSize },
+      { label: "Brake Type", value: (bike: Bike) => bike.brakeType },
+      { label: "Gear System", value: (bike: Bike) => bike.gearSystem },
+      {
+        label: "Color Options",
+        value: (bike: Bike) => bike.colorOptions?.join(", "),
+      },
+      {
+        label: "Suitable Terrain",
+        value: (bike: Bike) => bike.suitableTerrain,
+      },
+      { label: "Warranty", value: (bike: Bike) => bike.warranty },
     ],
     [bikes]
   );

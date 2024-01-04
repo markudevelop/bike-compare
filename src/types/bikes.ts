@@ -6,4 +6,11 @@ export type Bike = {
   weight: string;
   userRating: number;
   imageUrl: string;
+  frameMaterial: string;
+  wheelSize: string;
+  brakeType: string;
+  gearSystem: string;
+  colorOptions: string[];
+  suitableTerrain: string;
+  warranty: string;
 };
