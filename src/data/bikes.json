@@ -6,7 +6,14 @@
     "price": 3500,
     "weight": "7.8 kg",
     "userRating": 4.5,
-    "imageUrl": "https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwf6481ed5/images/full/full_2022_/2022/full_2022_speedmax-cf-8-disc-di2_3061_P04_P5.png"
+    "imageUrl": "https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dwf6481ed5/images/full/full_2022_/2022/full_2022_speedmax-cf-8-disc-di2_3061_P04_P5.png",
+    "frameMaterial": "Carbon Fiber",
+    "wheelSize": "700C",
+    "brakeType": "Disc",
+    "gearSystem": "Shimano Ultegra, 11-speed",
+    "colorOptions": ["Red", "Black"],
+    "suitableTerrain": "Road",
+    "warranty": "2 years"
   },
   {
     "id": 245,
@@ -15,7 +22,14 @@
     "price": 11000,
     "weight": "6.5 kg",
     "userRating": 4.8,
-    "imageUrl": "https://media.trekbikes.com/image/upload/f_auto,fl_progressive:semi,q_auto,w_800,h_600,c_pad/EmondaSLR9_22_35715_D_Primary"
+    "imageUrl": "https://media.trekbikes.com/image/upload/f_auto,fl_progressive:semi,q_auto,w_800,h_600,c_pad/EmondaSLR9_22_35715_D_Primary",
+    "frameMaterial": "Carbon Fiber",
+    "wheelSize": "700C",
+    "brakeType": "Disc",
+    "gearSystem": "Shimano Dura-Ace Di2, 12-speed",
+    "colorOptions": ["Black", "White", "Blue"],
+    "suitableTerrain": "Road",
+    "warranty": "3 years"
   },
   {
     "id": 367,
@@ -24,7 +38,14 @@
     "price": 12000,
     "weight": "6.3 kg",
     "userRating": 4.9,
-    "imageUrl": "https://assets.specialized.com/i/specialized/94920-00_TARMAC-SL7-SW-DI2-FLORED-TARBLK-WHT_HERO"
+    "imageUrl": "https://assets.specialized.com/i/specialized/94920-00_TARMAC-SL7-SW-DI2-FLORED-TARBLK-WHT_HERO",
+    "frameMaterial": "Carbon Fiber",
+    "wheelSize": "700C",
+    "brakeType": "Disc",
+    "gearSystem": "SRAM RED eTap AXS, 12-speed",
+    "colorOptions": ["Red/Black", "White/Black", "Neon"],
+    "suitableTerrain": "Road",
+    "warranty": "Lifetime"
   },
   {
     "id": 478,
@@ -33,7 +54,14 @@
     "price": 5000,
     "weight": "8.2 kg",
     "userRating": 4.7,
-    "imageUrl": "https://images2.giant-bicycles.com/b_white,c_pad,h_600,q_80,w_800/ahkgcbcxk7woygeoybm3/MY24DefyAdvancedPro1_ColorAUnicornWhite.jpg"
+    "imageUrl": "https://images2.giant-bicycles.com/b_white,c_pad,h_600,q_80,w_800/ahkgcbcxk7woygeoybm3/MY24DefyAdvancedPro1_ColorAUnicornWhite.jpg",
+    "frameMaterial": "Advanced-Grade Composite",
+    "wheelSize": "700C",
+    "brakeType": "Hydraulic Disc",
+    "gearSystem": "Shimano Ultegra, 11-speed",
+    "colorOptions": ["Unicorn White", "Metallic Navy"],
+    "suitableTerrain": "Road",
+    "warranty": "Lifetime Frame, 2 Years Components"
   },
   {
     "id": 590,
@@ -42,6 +70,13 @@
     "price": 6000,
     "weight": "7.5 kg",
     "userRating": 4.6,
-    "imageUrl": "https://www.cycledivision.co.uk/media/catalog/product/optimized/d/b/dbebb272a4174a9edc67a9dc15451026/scott-addict-rc-2019.png"
+    "imageUrl": "https://www.cycledivision.co.uk/media/catalog/product/optimized/d/b/dbebb272a4174a9edc67a9dc15451026/scott-addict-rc-2019.png",
+    "frameMaterial": "Carbon Fiber",
+    "wheelSize": "700C",
+    "brakeType": "Disc",
+    "gearSystem": "SRAM Force eTap AXS, 12-speed",
+    "colorOptions": ["Black", "Red", "Silver"],
+    "suitableTerrain": "Road",
+    "warranty": "5 years"
   }
 ]
