@@ -6,6 +6,7 @@
 2. Check Performance/SEO/Aaccessibility
 3. Nicer UI/UX?
 4. Unit tests/docs?
+5. Image component from Astro doesnt work inside react we can use Slot mechanism to auto-resize and optimize images on the fly (for PROD) for LCP improvment as well.
 
 ## 🚀 Project Structure
 
