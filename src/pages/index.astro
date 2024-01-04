@@ -1,17 +1,18 @@
 ---
+import type { Bike } from "../types/bikes";
 import Layout from "../layouts/Layout.astro";
 import BikeSelector from "../components/BikeSelector";
 import PageTitle from "../components/PageTitle";
 
-async function fetchBikes() {
+async function fetchBikes(): Promise<Bike[]> {
   return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(import("../data/bikes.json"));
+    setTimeout(async () => {
+      resolve((await import("../data/bikes.json")).default as Bike[]);
     }, 80);
   });
 }
 
-const bikes = (await fetchBikes()).default;
+const bikes = await fetchBikes();
 const title = "Bike Comparison Dashboard";
 ---
 
