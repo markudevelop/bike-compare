@@ -38,10 +38,15 @@ const BikeFilters: React.FC<Props> = ({ onFilter }) => {
     <div className="bg-white p-4 rounded-lg shadow-lg">
       <h2 className="text-lg font-semibold mb-2">Filter Bikes</h2>
       <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700">
+        <label
+          htmlFor="brand"
+          className="block text-sm font-medium text-gray-700"
+        >
           Brand:
         </label>
         <input
+          id="brand"
+          aria-label="Brand"
           type="text"
           name="brand"
           value={filters.brand}
@@ -50,10 +55,15 @@ const BikeFilters: React.FC<Props> = ({ onFilter }) => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-sm font-medium text-gray-700">
+        <label
+          htmlFor="price"
+          className="block text-sm font-medium text-gray-700"
+        >
           Price (max):
         </label>
         <input
+          id="price"
+          aria-label="Price"
           type="number"
           name="price"
           value={filters.price}
@@ -63,7 +73,7 @@ const BikeFilters: React.FC<Props> = ({ onFilter }) => {
       </div>
       <button
         onClick={applyFilters}
-        className="w-full py-2 bg-blue-500 text-sm text-white rounded-md hover:bg-blue-600 focus:outline-none"
+        className="w-full py-2 bg-blue-700 text-sm text-gray-100 rounded-md hover:bg-blue-600 focus:outline-none"
       >
         Apply Filters
       </button>
