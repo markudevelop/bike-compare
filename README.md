@@ -1,5 +1,12 @@
 # Bike Compare by Mark
 
+## TODO
+
+1. Create API end-point that supports filtering and use it instead hardcoded JSON and front-end side filters
+2. Check Performance/SEO/Aaccessibility
+3. Nicer UI/UX?
+4. Unit tests/docs?
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
